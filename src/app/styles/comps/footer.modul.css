@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.footer .content {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  max-width: 97%;
+  margin: auto;
+  padding: 1rem 0 1rem 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+  background-color: aqua;
+}
+.footer .content .gridLeft {
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+.footer .content .gridLeft .logo {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 40rem;
+  font-weight: bolder;
+}/*# sourceMappingURL=footer.modul.css.map */

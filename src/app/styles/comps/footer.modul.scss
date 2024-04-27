@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  height: max-content;
+
+  .content {
+    width: 100%;
+    height: max-content;
+    max-width: 97%;
+    margin: auto;
+    padding: 1rem 0 1rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    background-color: aqua;
+
+    .gridLeft {
+      width: max-content;
+      display: flex;
+      flex-direction: column;
+      background-color: aqua;
+
+      .logo {
+        font-family: "Archivo Black", sans-serif;
+        font-size: 40rem;
+        font-weight: bolder;
+      }
+    }
+  }
+}
